@@ -73,3 +73,39 @@ que será aplicada sólo a ese ultimo elemento de la lista */
   padding: 3px;
   margin-top: -3px;
 }
+
+.principal {
+
+}
+
+.fondo-formulario {
+width: 40%;
+height: 200px;
+background: #fff;
+margin-top: 60px;
+margin-left: 40%;
+float: right;
+}
+
+.container-formulario {
+width: 80%;
+margin: 10px;
+}
+
+.titulo-formulario {
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+color: #352384
+}
+
+.subtitulo-formulario {
+
+}
+
+.datos-phone {
+
+}
+
+.btn-become {
+
+}
