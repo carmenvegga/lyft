@@ -1,3 +1,75 @@
-/*
- * Estilos de tu proyecto
- */
+/*font-family: 'Montserrat', sans-serif; */
+
+html, body {
+  margin: 0;
+  width: 100%;
+}
+
+/* los puntos .. sirven para definir la ruta, en este caso tengo que salir una carpeta,
+para estar a la altura carpetas assets y css */
+.principal {
+background-image: url("../assets/images/hero.gif");
+background-size: 100%;
+height: 400px;
+}
+.container{
+  width: 80%
+}
+
+.logo{
+  width: 100%;
+}
+
+.imagen-fondo-barra {
+width: 100%;
+height: auto;
+}
+
+.barra-navegacion {
+width: 100%
+top:0;
+}
+
+.logo-blanco {
+width: 5%;
+float: left;
+margin-top: 15px;
+margin-left: 45px;
+}
+
+.opciones-barra {
+width: 100%;
+}
+
+/*Usando display:flex, se define el elemento como contenedor flexible y todos sus "hijos" como elementos flexibles.
+El valor flex hace que el contenedor flexible sea un bloque dentro del elemento "padre" al que pertenezca.*/
+.menu-list {
+float: right;
+margin-top: 15px;
+text-align: center;
+display: flex;
+}
+
+.menu-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+/* Quitando la línea caracterítica de un link, <a> y modificando color y fuente*/
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Nombré una clase extra para el ultimo menú-link, que lleva border,
+que será aplicada sólo a ese ultimo elemento de la lista */
+.btn {
+  border: solid 1px #fff;
+  width: 20%;
+  border-radius: 3px;
+  padding: 3px;
+  margin-top: -3px;
+}
