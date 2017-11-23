@@ -4,11 +4,11 @@
 
 ## Flujo de trabajo
 
-1. Comencé revisando los archivos disponibles para iniciar el pryecto.
+1. Comencé revisando los archivos disponibles para iniciar el proyecto.
 2. Busqué las fuentes a utilizar y su link para ligar en html.
 3. Descargué carpeta de iconos y sus links.
-4. Bocetos para definir la estructura y el diseño.
-5. Estructura por medio de secciones, divs y cajas, en archivo html.
+4. Realicé bocetos para definir la estructura y el diseño.
+5. Estructurar por medio de secciones, divs y cajas, en archivo html.
 6. Comenzar a hacer modificaciones de estilo en css.
 7. Explorar funciones y las modificaciones que van sucediendo.
 
