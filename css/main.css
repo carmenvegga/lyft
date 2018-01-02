@@ -1,49 +1,53 @@
-/*font-family: 'Montserrat', sans-serif; */
-
 html, body {
   margin: 0;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* los puntos .. sirven para definir la ruta, en este caso tengo que salir una carpeta,
 para estar a la altura carpetas assets y css */
-.principal {
-background-image: url("../assets/images/hero.gif");
-background-size: 100%;
-background-repeat: no-repeat;
-height:300px;
-/* background-repeat, ayuda a que la imagen de fondo no se repita */
+
+.top-section {
+  background-image: url("../assets/images/hero.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
 }
-.container{
+
+/* background-repeat, ayuda a que la imagen de fondo no se repita */
+
+.container {
   width: 80%
 }
-.logo{
+
+.logo {
   width: 100%;
 }
 
 .barra-navegacion {
-width: 100%
-top:0;
+  width: 100% top:0;
 }
 
 .logo-blanco {
-width: 5%;
-float: left;
-margin-top: 15px;
-margin-left: 45px;
+  width: 5%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .opciones-barra {
-width: 100%;
+  width: 85%;
 }
 
 /*Usando display:flex, se define el elemento como contenedor flexible y todos sus "hijos" como elementos flexibles.
 El valor flex hace que el contenedor flexible sea un bloque dentro del elemento "padre" al que pertenezca.*/
+
 .menu-list {
-float: right;
-margin-top: 15px;
-text-align: center;
-display: flex;
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
 }
 
 .menu-item {
@@ -53,95 +57,194 @@ display: flex;
 }
 
 /* Quitando la línea caracterítica de un link, <a> y modificando color y fuente*/
+
 .menu-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 80%;
-    font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 80%;
+  font-weight: bold;
 }
+
 /* Nombré una clase extra para el ultimo menú-link, que lleva border,
 que será aplicada sólo a ese ultimo elemento de la lista */
+
 .btn {
   border: solid 1px #fff;
-  width: 20%;
   border-radius: 3px;
-  padding: 3px;
+  padding: 3px 8px;
   margin-top: -3px;
 }
-.fondo-formulario {
-width: 50%;
-height: 100%;
-background: #fff;
-margin-left: 40%;
-float: right;
+
+.fondo-form {
+  width: 35%;
+  height: 70%;
+  background: #fff;
+  margin-left: 40%;
+  float: right;
+  margin-top: 20px;
 }
-.container-formulario {
-width: 50%;
-height: 100%;
-margin: 40px;
+
+.container-form {
+  width: 60%;
+  height: 100%;
+  margin: 40px 60px;
 }
 
 .titulo-caja {
-width: 100%;
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+}
 
+.titulo-form {
+  text-transform: uppercase;
+  color: #352384;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 0;
 }
-.titulo-formulario {
-font-family: 'Montserrat', sans-serif;
-text-transform: uppercase;
-color: #352384;
-font-weight: bolder;
-font-size: 25px;
-margin: 0;
-}
+
 .subtitulo-caja {
-width: 100%
+  width: 100%
 }
 
-.subtitulo-formulario {
-font-family: 'Montserrat', sans-serif;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 10px;
-color: #352384;
-
+.subtitulo-form {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #352384;
+  margin-bottom: 30px;
 }
 
 .datos-phone {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 8px;
-  color: #728099;
+  font-weight: 300;
+  font-size: 11px;
+  color: #a4aec0;
   border-bottom: 1px solid #352384;
+  padding: 5px;
 }
-.datos-phone > input {
+
+.datos-phone>input {
   border: 0;
 }
-.botones{
+
+.botones {
   width: 100%;
-  height: 30%;
   display: inline-block;
   display: flex;
 }
 
-.btn-become > a {
-text-decoration: none;
-color: #fff;
-background-color: #ff00bf;
-border-radius: 5px;
-padding: 10px 12px;
-font-size: 10px;
-font-family: 'Montserrat', sans-serif;
+.btn-become>a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff00bf;
+  border-radius: 5px;
+  padding: 10px 12px;
+  font-size: 10px;
 }
+
 .btn-become {
-  margin-top: 20px;
+  margin-top: 30px;
 }
-.btn-sign{
-float: right;
-margin-top: 20px;
-margin-left: 10px;
+
+.btn-sign {
+  float: right;
+  margin-top: 30px;
+  margin-left: 15px;
 }
-.btn-sign > a {
+
+.btn-sign>a {
   font-size: 10px;
   color: #728099;
+}
+
+.lineas-txt>p {
+  font-weight: normal;
+  font-size: 9px;
+  color: #728099;
+}
+
+.lineas-txt {
+  display: block;
+  margin-top: 50px;
+}
+
+.middle-section {
+  width: 100%;
+  background: linear-gradient(#72268D, #311F6A);
+}
+
+.middle-txt {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  margin: 120px;
+  color: #ffffff;
+}
+
+.middle-txt>h2 {
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.middle-txt>p {
+  display: block;
+  margin: 2px;
+}
+
+#happy-second {
+  margin-top: -15px;
+}
+
+.middle-img {
+  display: inline-block;
+  width: 400px;
+  margin: 120px;
+}
+
+.phone-img {
+  width: 600px;
+  margin-left: 300px;
+}
+
+.videos-section {
+  width: 100%;
+}
+
+.watch {
+  text-transform: uppercase;
+  margin: 0px;
+  padding-top: 50px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.watch-amplify {
+  background-color: #ffffff;
+  height: 500px;
+  width: 25%;
+  margin-left: 120px;
+}
+
+.watch-june {
+  background-color: #ffffff;
+  height: 500px;
+  width: 25%;
+  margin-left: 60%;
+}
+
+.watch-a-good-thing {
+  background-color: #ffffff;
+  height: 500px;
+  width: 25%;
+  margin-left: 120px;
 }
